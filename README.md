@@ -22,3 +22,13 @@ c(`
 (+ 1 2)
 `)
 ```
+
+## Limitations
+
+Clojure namespaces are not yet supported.  To set variables do
+
+```
+c(`
+(set! js/my-var (+ 1 2))
+`)
+```
